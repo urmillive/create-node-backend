@@ -32,7 +32,7 @@ const presets = {
 };
 
 (async () => {
-  console.log(chalk.cyan.bold('\n🚀 urmil-backend-starter\n'));
+  console.log(chalk.cyan('\n🚀 urmil-backend-starter\n'));
 
   const { projectName, preset } = await inquirer.prompt([
     {
@@ -130,6 +130,6 @@ const presets = {
   process.chdir(targetDir);
   execSync('npm install', { stdio: 'inherit' });
 
-  console.log(chalk.green.bold(`\n🎉 "${projectName}" is ready!`));
+  console.log(chalk.green(`\n🎉 "${projectName}" is ready!`));
   console.log(chalk.cyan(`👉 cd ${projectName} && npm run dev`));
 })();
