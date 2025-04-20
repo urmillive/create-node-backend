@@ -16,7 +16,7 @@ const templatePath = path.join(__dirname, '..', 'template');
 
 fs.copySync(templatePath, targetPath);
 
-console.log('✅ Template copied!');
+console.log('✅ Template created!');
 
 process.chdir(targetPath);
 execSync('npm install', { stdio: 'inherit' });
