@@ -3,8 +3,8 @@ const morgan = require('morgan');
 const dotenv = require('dotenv');
 const app = express();
 const routes = require('./routes');
-const notFound = require('./middleware/notFound');
-const errorHandler = require('./middleware/errorHandler');
+const notFound = require('./middlewares/notFound');
+const errorHandler = require('./middlewares/errorHandler');
 
 dotenv.config();
 
