@@ -23,3 +23,14 @@ With **npx** (no installation required):
 
 ```bash
 npx urmil-backend-starter my-api
+```
+
+##With global installation & Usage
+
+```bash
+npm i -g urmil-backend-starter
+```
+
+```
+create-node-backend
+```
