@@ -1,6 +1,6 @@
 {
   "name": "urmil-backend-starter",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "CLI to scaffold a Node.js backend project",
   "bin": {
     "create-node-backend": "./bin/index.js"
