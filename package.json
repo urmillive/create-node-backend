@@ -5,6 +5,12 @@
   "bin": {
     "create-node-backend": "./bin/index.js"
   },
+  "files": [
+    "bin",
+    "template",
+    "features",
+    "utils"
+  ],
   "dependencies": {
     "chalk": "^4.1.2",
     "fs-extra": "^11.3.0",
