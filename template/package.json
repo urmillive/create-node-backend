@@ -1,6 +1,6 @@
 {
   "name": "node-api-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node REST API template ",
   "main": "index.js",
   "scripts": {
