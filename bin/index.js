@@ -4,7 +4,7 @@ const inquirer = require('inquirer');
 const fs = require('fs-extra');
 const path = require('path');
 const { execSync } = require('child_process');
-const copyFeature = require('../utils/copyUtils');
+const copyFeature = require(path.join(__dirname, '..', 'utils', 'copyUtils'));
 const chalk = require('chalk');
 
 const presets = {
