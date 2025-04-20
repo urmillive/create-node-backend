@@ -1,0 +1,31 @@
+{
+  "name": "urmil-backend-starter",
+  "version": "1.0.13",
+  "description": "CLI to scaffold a Node.js backend project",
+  "bin": {
+    "create-node-backend": "./bin/index.js"
+  },
+  "files": [
+    "bin",
+    "template",
+    "features",
+    "utils"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "fs-extra": "^11.3.0",
+    "inquirer": "^8.2.6"
+  },
+  "keywords": [
+    "node",
+    "backend",
+    "cli",
+    "template",
+    "urmil-backend-starter",
+    "urmil backend",
+    "urmil node starter",
+    "urmil api starter"
+  ],
+  "author": "Urmil Rupareliya",
+  "license": "MIT"
+}
