@@ -3,7 +3,7 @@
   "version": "1.0.20",
   "description": "CLI to scaffold a Node.js backend project",
   "bin": {
-    "create-node-backend": "./bin/index.js"
+    "urmil-backend-starter": "./bin/index.js"
   },
   "files": [
     "bin",
