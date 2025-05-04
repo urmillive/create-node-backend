@@ -1,5 +1,5 @@
 {
-  "name": "urmil-backend-starter",
+  "name": "create-node-backend",
   "version": "1.0.19",
   "description": "CLI to scaffold a Node.js backend project",
   "bin": {
@@ -21,6 +21,7 @@
     "cli",
     "template",
     "urmil-backend-starter",
+    "create-node-backend",
     "urmil backend",
     "urmil node starter",
     "urmil api starter"
